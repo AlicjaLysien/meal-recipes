@@ -1,16 +1,16 @@
-import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import Countries from './components/Countries.js';
 import DetailMeal from './components/DetailMeal.js';
 import ListRandom from './components/ListRandom.js'
 
 function MainRouter() {
 
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route index element={<ListRandom />} />
-                <Route exact path="/details/:id"  element={<DetailMeal />} />
-            </Routes>
-        </BrowserRouter>
+        <Routes>
+            <Route index path="" element={<ListRandom />} />
+            <Route exact path="/details/:id"  element={<DetailMeal />} />
+            <Route exact path="/countries"  element={<Countries />} />
+        </Routes>
     );
 }
 

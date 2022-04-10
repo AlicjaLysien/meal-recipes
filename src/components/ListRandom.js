@@ -29,7 +29,7 @@ function ListRandom() {
 
   return (
     <>
-    <h1>Moje Uzasne zradlo</h1>
+    <h1>Random meals</h1>
     <FoodList>
       {foodRandom.length > 1 && foodRandom.map((food, id) => {
           return <Card key={id}>
