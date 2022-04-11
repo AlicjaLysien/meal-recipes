@@ -5,34 +5,32 @@ import FoodList from './styled/FoodList/FoodList'
 
 function ListRandom() {
 
-  const [mealsRandom, setMealsRandom] = useState([]);
+  const [meals, setMeals] = useState([]);
 
   useEffect(() => {
     myAxios()
   }, []);
 
   const myAxios = () => {
-    for (let i = 0; i <3; i++) {
+    const area = window.location.pathname.split("/").pop()
     axios({
         method: 'get',
-        url: 'https://www.themealdb.com/api/json/v1/1/random.php'
+        url: `https://www.themealdb.com/api/json/v1/1/filter.php?a=${area}`
       })
         .then(function (response) {
             // we need response.data.meals[0]
-         setMealsRandom(mealsRandom => mealsRandom.concat(response.data.meals[0]))
+            setMeals(meals => meals.concat(response.data.meals))
         });
-    }
-    console.log(mealsRandom)
   }
 
 
   return (
     <>
     <h1>Random meals</h1>
-      <FoodList>
-        {mealsRandom.length > 0 && mealsRandom.map((meal, id) => {
+    <FoodList>
+        {meals.length > 0 && meals.map((meal, id) => {
             return <MealCard key={id} meal={meal} />
-          })
+        })
         }
       </FoodList>
 </>

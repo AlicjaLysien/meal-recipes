@@ -7,7 +7,8 @@ export const Card = styled.div`
     flex-direction: column;
     justify-content: center;
     padding: 10px;
-    margin: 0 0.5em;
+    margin: 0.5em;
+    border-radius: 5px;
     // variant jako props (muze byt jiny nazev nez variant), kde mohu menit css pro jednu komponentu
     //background-color: ${(props) => props.variant === 'white' ? 'white' : 'brown'};
     img {
@@ -20,11 +21,15 @@ export const Card = styled.div`
         margin: auto auto 0;
         padding: 0.4em 1em;
         font-size: 1.4em;
-        background: hsla(37, 58%, 45%, 1);
-        background: linear-gradient(90deg, hsla(37, 58%, 45%, 1) 0%, hsla(31, 60%, 31%, 1) 100%);
-        background: -moz-linear-gradient(90deg, hsla(37, 58%, 45%, 1) 0%, hsla(31, 60%, 31%, 1) 100%);
-        background: -webkit-linear-gradient(90deg, hsla(37, 58%, 45%, 1) 0%, hsla(31, 60%, 31%, 1) 100%);
-        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B68230", endColorstr="#7D501F", GradientType=1 );
+        border-radius: 5px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        background: rgb(182,130,48);
+        background: linear-gradient(0deg, rgba(182,130,48,1) 0%, rgba(101,71,24,1) 100%);
+        &:hover {
+            background: rgb(166,116,38);
+            background: linear-gradient(0deg, rgba(166,116,38,1) 0%, rgba(83,57,17,1) 100%);
+        }
     }
-
 `

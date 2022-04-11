@@ -40,9 +40,7 @@ function DetailMeal() {
                 const ingredientsPairs = {}
                 foundIngredients.forEach((element, index) => {
                   ingredientsPairs[element] = foundMeasures[index];
-                });
-                
-                console.log(ingredientsPairs)
+                });         
 
                 setIngredients(ingredientsPairs)
             });
@@ -52,7 +50,6 @@ function DetailMeal() {
     return (
         <>
         {meal && <Recipe>
-            {console.log(meal)}
               <img src={meal.strMealThumb} alt={`Image of ` + meal.strMeal}/>
               <h1>
                   {meal.strMeal}
