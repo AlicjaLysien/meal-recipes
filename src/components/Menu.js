@@ -13,7 +13,7 @@ function Menu() {
                     <NavLink to='/countries'>By country</NavLink>
                 </li>
                 <li>
-                <NavLink to='/search'>Search</NavLink>
+                    <NavLink to='/search'>Search</NavLink>
                 </li>
             </ul>
         </NavMenu>

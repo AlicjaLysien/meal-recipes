@@ -6,11 +6,12 @@ function MealCard(props) {
 
     return (
     <Card>
+        <NavLink to={props.meal.idMeal !== undefined ? `/details/${props.meal.idMeal}` : `${props.meal.urlCountry}`}>
         <img src={props.meal.strMealThumb} alt={`Image of ` + props.meal.strMeal}/>
-            <h1>
+            <h2>
                 {props.meal.strMeal}
-            </h1>
-        <NavLink to={`/details/${props.meal.idMeal}`}>More</NavLink>
+            </h2>
+        </NavLink>
     </Card>
     );
 }

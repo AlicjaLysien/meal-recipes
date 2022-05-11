@@ -6,6 +6,7 @@ import FoodList from './styled/FoodList/FoodList'
 function ListRandom() {
 
   const [meals, setMeals] = useState([]);
+  const [areaName, setAreaName] = useState([]);
 
   useEffect(() => {
     myAxios()
@@ -13,6 +14,7 @@ function ListRandom() {
 
   const myAxios = () => {
     const area = window.location.pathname.split("/").pop()
+    setAreaName(areaName => area[0].toUpperCase() + area.substring(1))
     axios({
         method: 'get',
         url: `https://www.themealdb.com/api/json/v1/1/filter.php?a=${area}`
@@ -26,7 +28,7 @@ function ListRandom() {
 
   return (
     <>
-    <h1>Random meals</h1>
+    <h2>{areaName} meals</h2>
     <FoodList>
         {meals.length > 0 && meals.map((meal, id) => {
             return <MealCard key={id} meal={meal} />

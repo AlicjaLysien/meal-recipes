@@ -50,23 +50,27 @@ function DetailMeal() {
     return (
         <>
         {meal && <Recipe>
-              <img src={meal.strMealThumb} alt={`Image of ` + meal.strMeal}/>
-              <h1>
-                  {meal.strMeal}
-              </h1>
-              <h2>What you need?</h2>
-              <ul>
-                {
-                  Object.entries(ingredients).map((item, id) => {
-                    const [key, value] = item;
-                    return <li key={id}>{key} - {value}</li>
-                  })
-                }
-              </ul>
-              <h2>How to prepare?</h2>
-              <p>
-                {meal.strInstructions}
-              </p>
+              <h2>{meal.strMeal}</h2>
+              <div className='ingredients'>
+                  <img src={meal.strMealThumb} alt={`Image of ` + meal.strMeal}/>
+                  <span>
+                    <h3>What you need?</h3>
+                    <ul>
+                      {
+                        Object.entries(ingredients).map((item, id) => {
+                          const [key, value] = item;
+                          return <li key={id}>{key} - {value}</li>
+                        })
+                      }
+                    </ul>
+                  </span>
+              </div>
+              <div className='describtion'>
+                  <h3>How to prepare?</h3>
+                  <p>
+                    {meal.strInstructions}
+                  </p>
+              </div>
             
           </Recipe> }
         </>

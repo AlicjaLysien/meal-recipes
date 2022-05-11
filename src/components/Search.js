@@ -27,7 +27,7 @@ const searchMeal = e => {
 
     return (
         <>
-            <h1>Search by meal name</h1>
+            <h2>Search by meal name</h2>
             <SearchForm onSubmit={searchMeal}>
                 <input ref={inputMeal} type="text" placeholder="Search.."/>
                     <button type="submit">
