@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import MealCard from './MealCard';
 import FoodList from './styled/FoodList/FoodList';
+import Loader from './styled/Loader/Loader';
 
 import imgChinese from './../images/countries/china.jpg'
 import imgItaly from './../images/countries/italy.jpg'
@@ -57,9 +58,9 @@ function ListRandom() {
     <>
     <h2>Random meals</h2>
       <FoodList>
-        {mealsRandom.length > 0 && mealsRandom.map((meal, id) => {
+        {(mealsRandom.length != 3) ? (<Loader />) :(mealsRandom.map((meal, id) => {
             return <MealCard key={id} meal={meal} />
-          })
+          }))
         }
       </FoodList>
       <NavLink to='/search' className="button">Look up for more</NavLink>   

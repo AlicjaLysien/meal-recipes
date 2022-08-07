@@ -5,7 +5,7 @@ max-width: 1200px;
     div.ingredients{
         display: flex;
         justify-content: center;
-        background-color: gray;
+        align-items: center;
         img {
             border-radius: 8px;
             max-width: 40%;
@@ -13,6 +13,11 @@ max-width: 1200px;
         }
         span{
             max-width: 50%;
+            text-align: left;
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
         }
     }
     img {
