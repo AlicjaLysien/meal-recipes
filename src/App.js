@@ -1,12 +1,9 @@
-import './App.css';
-import { BrowserRouter } from 'react-router-dom';
-
-import { createGlobalStyle } from 'styled-components';
-import Header from './components/Header';
-import MainRouter from './MainRouter';
-import Menu from './components/Menu';
-
-
+import "./App.css";
+import { BrowserRouter } from "react-router-dom";
+import { createGlobalStyle } from "styled-components";
+import Header from "./components/Header";
+import MainRouter from "./MainRouter";
+import Menu from "./components/Menu";
 
 const GlobalStyle = createGlobalStyle`
 body {
@@ -25,18 +22,17 @@ a {
 h1{
   font-family: 'Great Vibes', cursive;
 }
-`
+`;
 
 function App() {
-
   return (
     <div className="App">
-        <BrowserRouter>
-          <GlobalStyle/>
-          <Header/>
-          <Menu/>
-          <MainRouter/>
-        </BrowserRouter>
+      <BrowserRouter>
+        <GlobalStyle />
+        <Header />
+        <Menu />
+        <MainRouter />
+      </BrowserRouter>
     </div>
   );
 }
