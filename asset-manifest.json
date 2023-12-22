@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/meal-recipes/static/css/main.9593e4e1.css",
-    "main.js": "/meal-recipes/static/js/main.c44fb434.js",
+    "main.js": "/meal-recipes/static/js/main.83c8cd93.js",
     "static/js/787.3adb45fa.chunk.js": "/meal-recipes/static/js/787.3adb45fa.chunk.js",
     "static/media/italy.jpg": "/meal-recipes/static/media/italy.3133e86987c2ad7551cf.jpg",
     "static/media/greece.jpg": "/meal-recipes/static/media/greece.5607cd86b03d97721425.jpg",
@@ -25,11 +25,11 @@
     "static/media/turkish.png": "/meal-recipes/static/media/turkish.a7b5c9788c82ab9f15c0.png",
     "index.html": "/meal-recipes/index.html",
     "main.9593e4e1.css.map": "/meal-recipes/static/css/main.9593e4e1.css.map",
-    "main.c44fb434.js.map": "/meal-recipes/static/js/main.c44fb434.js.map",
+    "main.83c8cd93.js.map": "/meal-recipes/static/js/main.83c8cd93.js.map",
     "787.3adb45fa.chunk.js.map": "/meal-recipes/static/js/787.3adb45fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9593e4e1.css",
-    "static/js/main.c44fb434.js"
+    "static/js/main.83c8cd93.js"
   ]
 }
