@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
 import Header from "./components/Header";
 import MainRouter from "./MainRouter";
@@ -27,12 +27,12 @@ h1 {
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <GlobalStyle />
         <Header />
         <Menu />
         <MainRouter />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
