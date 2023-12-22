@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/meal-recipes/static/css/main.9593e4e1.css",
+    "main.js": "/meal-recipes/static/js/main.d5b8553d.js",
+    "static/js/787.3adb45fa.chunk.js": "/meal-recipes/static/js/787.3adb45fa.chunk.js",
+    "static/media/italy.jpg": "/meal-recipes/static/media/italy.3133e86987c2ad7551cf.jpg",
+    "static/media/greece.jpg": "/meal-recipes/static/media/greece.5607cd86b03d97721425.jpg",
+    "static/media/china.jpg": "/meal-recipes/static/media/china.f4daf5bd9d876010f6c9.jpg",
+    "static/media/american.png": "/meal-recipes/static/media/american.6fe49e39001baabc57da.png",
+    "static/media/british.png": "/meal-recipes/static/media/british.406d0f11b8fe4034746c.png",
+    "static/media/kenyan.png": "/meal-recipes/static/media/kenyan.50805ea969a2d3219498.png",
+    "static/media/greek.png": "/meal-recipes/static/media/greek.e4ef231194ada4644fdb.png",
+    "static/media/jamaican.png": "/meal-recipes/static/media/jamaican.e29d3ab8993c8eafa5f0.png",
+    "static/media/malaysian.png": "/meal-recipes/static/media/malaysian.9b73ecd9371ecd2267d8.png",
+    "static/media/spanish.png": "/meal-recipes/static/media/spanish.7967cdeafb6afccfe8c3.png",
+    "static/media/tunisian.png": "/meal-recipes/static/media/tunisian.33866d76aee032e7a291.png",
+    "static/media/mexican.png": "/meal-recipes/static/media/mexican.ab7e404d97318b85212f.png",
+    "static/media/portuguese.png": "/meal-recipes/static/media/portuguese.c5143f6c60e13d776235.png",
+    "static/media/croatian.png": "/meal-recipes/static/media/croatian.b2442704cd4b165a6ea1.png",
+    "static/media/indian.png": "/meal-recipes/static/media/indian.00ce584170fb9aae0d80.png",
+    "static/media/vietnamese.png": "/meal-recipes/static/media/vietnamese.e45986e74f8ecd656e28.png",
+    "static/media/egyptian.png": "/meal-recipes/static/media/egyptian.81d55f530251cb55cb03.png",
+    "static/media/moroccan.png": "/meal-recipes/static/media/moroccan.b350a3c978071604e2d3.png",
+    "static/media/canadian.png": "/meal-recipes/static/media/canadian.1f02b0884b33120d3414.png",
+    "static/media/turkish.png": "/meal-recipes/static/media/turkish.a7b5c9788c82ab9f15c0.png",
+    "index.html": "/meal-recipes/index.html",
+    "main.9593e4e1.css.map": "/meal-recipes/static/css/main.9593e4e1.css.map",
+    "main.d5b8553d.js.map": "/meal-recipes/static/js/main.d5b8553d.js.map",
+    "787.3adb45fa.chunk.js.map": "/meal-recipes/static/js/787.3adb45fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9593e4e1.css",
+    "static/js/main.d5b8553d.js"
+  ]
+}
