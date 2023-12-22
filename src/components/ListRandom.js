@@ -40,10 +40,9 @@ function ListRandom() {
     for (let i = 0; i < 3; i++) {
       axios({
         method: "get",
-        url: "https://api.phippy.net/open-api/meals/random-meal",
+        url: "https://www.themealdb.com/api/json/v1/1/random.php",
       }).then(function (response) {
-        // we need response.data.meals[0]
-        setMealsRandom((mealsRandom) => mealsRandom.concat(response.data));
+        setMealsRandom((mealsRandom) => mealsRandom.concat(response.data.meals[0]));
       });
     }
   };

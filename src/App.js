@@ -19,7 +19,7 @@ a {
     text-decoration: none;
     color: #E5E5E5;
 }
-h1{
+h1 {
   font-family: 'Great Vibes', cursive;
 }
 `;

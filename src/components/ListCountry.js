@@ -18,7 +18,6 @@ function ListRandom() {
       method: "get",
       url: `https://www.themealdb.com/api/json/v1/1/filter.php?a=${area}`,
     }).then(function (response) {
-      // we need response.data.meals[0]
       setMeals((meals) => meals.concat(response.data.meals));
     });
   };

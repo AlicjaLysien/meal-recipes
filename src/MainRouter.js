@@ -12,10 +12,10 @@ function MainRouter() {
         <MainStyled>
             <Routes>
                 <Route index path="" element={<ListRandom />} />
-                <Route exact path="/details/:id"  element={<DetailMeal />} />
-                <Route exact path="/countries"  element={<Countries />} />
-                <Route exact path="/countries/:id"  element={<ListCountry />} />
-                <Route exact path="/search"  element={<Search />} />
+                <Route exact path="/details/:id" element={<DetailMeal />} />
+                <Route exact path="/countries" element={<Countries />} />
+                <Route exact path="/countries/:id" element={<ListCountry />} />
+                <Route exact path="/search" element={<Search />} />
             </Routes>
         </MainStyled>
     );

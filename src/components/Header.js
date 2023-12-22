@@ -10,12 +10,12 @@ function Menu() {
   return (
     <Header>
       <img src={icon01} alt="onion" />
-      <img src={icon02} alt="onion" />
-      <img src={icon03} alt="onion" />
+      <img src={icon02} alt="ham" />
+      <img src={icon03} alt="nuts" />
       <h1>Food recipe</h1>
-      <img src={icon04} alt="onion" />
-      <img src={icon05} alt="onion" />
-      <img src={icon06} alt="onion" />
+      <img src={icon04} alt="sauces" />
+      <img src={icon05} alt="lemon" />
+      <img src={icon06} alt="chili" />
     </Header>
   );
 }
