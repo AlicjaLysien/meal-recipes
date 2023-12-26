@@ -20,7 +20,7 @@ npm run start
 
 ## 🖥️ Preview
 
-Link to live preview: [https://alicjalysien.github.io/meal-recipes](https://alicjalysien.github.io/meal-recipes/)**
+Link to live preview: [https://alicjalysien.github.io/meal-recipes](https://alicjalysien.github.io/meal-recipes/)
 
 ![Image - preview of my page](/public/images/readme-example.png)
 
